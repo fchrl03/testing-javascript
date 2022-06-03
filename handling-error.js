@@ -68,10 +68,6 @@ const detectTriangle = (a, b, c) => {
     if (a === b && b === c) {
       return 'Segitiga sama sisi';
     }
-    if (a === b && b === c) {
-      return 'Segitiga sama sisi';
-    }
-
     if (a === b || a === c || b === c) {
       return 'Segitiga sama kaki';
     }
